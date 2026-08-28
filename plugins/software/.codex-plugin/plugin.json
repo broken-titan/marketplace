@@ -1,0 +1,24 @@
+{
+  "name": "software",
+  "version": "1.0.0",
+  "description": "Data and ELT engineering: Astronomer, Airflow, dbt, and warehouse pipeline contexts.",
+  "author": {
+    "name": "Plugin maintainer"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "elt",
+    "airflow",
+    "astronomer",
+    "dbt",
+    "warehouse",
+    "data-engineering"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Software",
+    "shortDescription": "Data and ELT engineering: Astronomer, Airflow, dbt, and warehouse pipeline contexts.",
+    "developerName": "Plugin maintainer",
+    "category": "Development"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fantasy",
+  "version": "1.0.0",
+  "description": "Tolkien-esque and high-fantasy narrative prose for fiction and TTRPG writing.",
+  "author": {
+    "name": "Plugin maintainer"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "tolkien",
+    "fantasy",
+    "ttrpg",
+    "prose",
+    "narrative"
+  ]
+}

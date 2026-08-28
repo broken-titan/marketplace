@@ -1,0 +1,83 @@
+{
+  "name": "plugins",
+  "interface": {
+    "displayName": "Plugins"
+  },
+  "plugins": [
+    {
+      "name": "fantasy",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fantasy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Writing",
+      "interface": {
+        "displayName": "Fantasy / RPG"
+      }
+    },
+    {
+      "name": "sdlc",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sdlc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "interface": {
+        "displayName": "SDLC"
+      }
+    },
+    {
+      "name": "software",
+      "source": {
+        "source": "local",
+        "path": "./plugins/software"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development",
+      "interface": {
+        "displayName": "Software"
+      }
+    },
+    {
+      "name": "work",
+      "source": {
+        "source": "local",
+        "path": "./plugins/work"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Domain",
+      "interface": {
+        "displayName": "Lab informatics"
+      }
+    },
+    {
+      "name": "writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "Writing"
+      }
+    }
+  ]
+}

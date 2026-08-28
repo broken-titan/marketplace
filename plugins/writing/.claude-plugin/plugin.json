@@ -1,0 +1,16 @@
+{
+  "name": "writing",
+  "version": "1.0.0",
+  "description": "Writing voice, comment discipline, and user-facing error-message style.",
+  "author": {
+    "name": "Plugin maintainer"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "writing",
+    "voice",
+    "style",
+    "comments",
+    "error-messages"
+  ]
+}

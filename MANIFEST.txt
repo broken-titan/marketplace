@@ -1,0 +1,25 @@
+Plugins
+
+Source: plugins
+Plugins: 5
+
+- fantasy: 1 skills (tolkien-prose)
+- sdlc: 4 skills (requirements, requirements-defaults, rscop-analysis, solutions-architecture-document)
+- software: 1 skills (astro-elt-contexts)
+- work: 1 skills (lab-informatics-compliance)
+- writing: 3 skills (comment-police, writing-error-messages, writing-voice)
+
+Published tag root:
+- .claude-plugin/marketplace.json
+- .cursor-plugin/marketplace.json
+- .grok-plugin/marketplace.json
+- .agents/plugins/marketplace.json
+- plugins/<name>/  skills/ plus host manifests
+
+Each plugins/<name>/ includes:
+- .claude-plugin/plugin.json
+- .cursor-plugin/plugin.json
+- .codex-plugin/plugin.json
+- .grok-plugin/plugin.json
+- plugin.json  ($schema https://agent-plugins.org/schemas/1.0.0/plugin.schema.json)
+- skills/

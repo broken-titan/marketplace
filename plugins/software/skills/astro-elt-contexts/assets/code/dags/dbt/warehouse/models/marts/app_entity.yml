@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: app_entity
+    description: Published contract for the downstream app. No source vendor codes.
+    columns:
+      - name: warehouse_id
+        tests: [unique, not_null]
+      - name: contract_version
+        tests: [not_null]

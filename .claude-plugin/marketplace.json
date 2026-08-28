@@ -1,0 +1,83 @@
+{
+  "name": "plugins",
+  "owner": {
+    "name": "Plugin maintainer"
+  },
+  "metadata": {
+    "description": "Plugins. Enable only the ones that match the work in front of you.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "fantasy",
+      "source": "./plugins/fantasy",
+      "description": "Tolkien-esque and high-fantasy narrative prose for fiction and TTRPG writing.",
+      "version": "1.0.0",
+      "category": "writing",
+      "keywords": [
+        "tolkien",
+        "fantasy",
+        "ttrpg",
+        "prose",
+        "narrative"
+      ]
+    },
+    {
+      "name": "sdlc",
+      "source": "./plugins/sdlc",
+      "description": "Requirements and architecture: living specs, NFR defaults, RSCOP analysis, and Solutions Architecture Documents.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": [
+        "sdlc",
+        "requirements",
+        "architecture",
+        "rscop"
+      ]
+    },
+    {
+      "name": "software",
+      "source": "./plugins/software",
+      "description": "Data and ELT engineering: Astronomer, Airflow, dbt, and warehouse pipeline contexts.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": [
+        "elt",
+        "airflow",
+        "astronomer",
+        "dbt",
+        "warehouse",
+        "data-engineering"
+      ]
+    },
+    {
+      "name": "work",
+      "source": "./plugins/work",
+      "description": "Regulated laboratory informatics: LIMS, LIS, ELN and related lab-software compliance (audit trails, e-signatures, data integrity).",
+      "version": "1.0.0",
+      "category": "domain",
+      "keywords": [
+        "lims",
+        "lis",
+        "eln",
+        "lab-informatics",
+        "compliance",
+        "part-11"
+      ]
+    },
+    {
+      "name": "writing",
+      "source": "./plugins/writing",
+      "description": "Writing voice, comment discipline, and user-facing error-message style.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "writing",
+        "voice",
+        "style",
+        "comments",
+        "error-messages"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "work",
+  "version": "1.0.0",
+  "description": "Regulated laboratory informatics: LIMS, LIS, ELN and related lab-software compliance (audit trails, e-signatures, data integrity).",
+  "author": {
+    "name": "Plugin maintainer"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "lims",
+    "lis",
+    "eln",
+    "lab-informatics",
+    "compliance",
+    "part-11"
+  ]
+}

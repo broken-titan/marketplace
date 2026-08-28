@@ -1,0 +1,90 @@
+{
+  "name": "plugins",
+  "description": "Plugins. Enable only the ones that match the work in front of you.",
+  "owner": {
+    "name": "Plugin maintainer"
+  },
+  "plugins": [
+    {
+      "name": "fantasy",
+      "description": "Tolkien-esque and high-fantasy narrative prose for fiction and TTRPG writing.",
+      "category": "writing",
+      "keywords": [
+        "tolkien",
+        "fantasy",
+        "ttrpg",
+        "prose",
+        "narrative"
+      ],
+      "source": {
+        "type": "local",
+        "path": "./plugins/fantasy"
+      }
+    },
+    {
+      "name": "sdlc",
+      "description": "Requirements and architecture: living specs, NFR defaults, RSCOP analysis, and Solutions Architecture Documents.",
+      "category": "development",
+      "keywords": [
+        "sdlc",
+        "requirements",
+        "architecture",
+        "rscop"
+      ],
+      "source": {
+        "type": "local",
+        "path": "./plugins/sdlc"
+      }
+    },
+    {
+      "name": "software",
+      "description": "Data and ELT engineering: Astronomer, Airflow, dbt, and warehouse pipeline contexts.",
+      "category": "development",
+      "keywords": [
+        "elt",
+        "airflow",
+        "astronomer",
+        "dbt",
+        "warehouse",
+        "data-engineering"
+      ],
+      "source": {
+        "type": "local",
+        "path": "./plugins/software"
+      }
+    },
+    {
+      "name": "work",
+      "description": "Regulated laboratory informatics: LIMS, LIS, ELN and related lab-software compliance (audit trails, e-signatures, data integrity).",
+      "category": "domain",
+      "keywords": [
+        "lims",
+        "lis",
+        "eln",
+        "lab-informatics",
+        "compliance",
+        "part-11"
+      ],
+      "source": {
+        "type": "local",
+        "path": "./plugins/work"
+      }
+    },
+    {
+      "name": "writing",
+      "description": "Writing voice, comment discipline, and user-facing error-message style.",
+      "category": "productivity",
+      "keywords": [
+        "writing",
+        "voice",
+        "style",
+        "comments",
+        "error-messages"
+      ],
+      "source": {
+        "type": "local",
+        "path": "./plugins/writing"
+      }
+    }
+  ]
+}

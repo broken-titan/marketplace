@@ -1,0 +1,15 @@
+{
+  "name": "sdlc",
+  "version": "1.0.0",
+  "description": "Requirements and architecture: living specs, NFR defaults, RSCOP analysis, and Solutions Architecture Documents.",
+  "author": {
+    "name": "Plugin maintainer"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "sdlc",
+    "requirements",
+    "architecture",
+    "rscop"
+  ]
+}
