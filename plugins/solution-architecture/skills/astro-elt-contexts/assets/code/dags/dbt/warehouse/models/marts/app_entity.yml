@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: app_entity
+    description: Published contract for the downstream app. No source vendor codes.
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: warehouse_id
+        data_type: string
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref("int_entity")
+              field: warehouse_id
+      - name: business_key
+        data_type: string
+        tests: [not_null]
+      - name: state
+        data_type: string
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["active", "inactive"]
+      - name: occurred_at
+        data_type: timestamp
+      - name: source_updated_at
+        data_type: timestamp
+        tests: [not_null]
+      - name: contract_version
+        data_type: string
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["app_entity_v1"]

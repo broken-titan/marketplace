@@ -1,0 +1,5 @@
+astronomer-cosmos
+apache-airflow-providers-http
+apache-airflow-providers-microsoft-mssql
+apache-airflow-providers-postgres
+apache-airflow-providers-common-sql

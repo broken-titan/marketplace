@@ -1,0 +1,28 @@
+{
+  "name": "writing",
+  "displayName": "Writing",
+  "version": "1.0.0",
+  "description": "Writing voice, comment discipline, and user-facing error text. Skills: writing-voice (docs, notes, and short messages), comment-police (default is add no comments; carve-outs are license/SPDX, lint suppressions, generated-file banners, and public-API contracts), writing-error-messages (user-facing errors in three parts: what happened, why, and next steps the user should take). Use voice for prose, comment-police when editing source, and error-messages for UI, API, or log user text.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "writing",
+    "voice",
+    "style",
+    "comments",
+    "error-messages"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace",
+  "category": "productivity",
+  "tags": [
+    "writing",
+    "voice",
+    "style",
+    "comments",
+    "error-messages"
+  ]
+}
