@@ -1,0 +1,19 @@
+{
+  "name": "writing",
+  "displayName": "Writing",
+  "version": "1.0.0",
+  "description": "Personal writing voice and user-facing error text. Skills: writing-voice (documents, guides, email, chat, tickets, and commit messages), writing-error-messages (user-facing errors in three parts: what happened, why, and next steps the user should take). Use voice when drafting or revising prose on the user's behalf; use error-messages for UI, API, or log user text.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "writing",
+    "voice",
+    "style",
+    "error-messages"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace"
+}

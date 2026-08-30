@@ -1,0 +1,30 @@
+{
+  "name": "engineering-strategy",
+  "displayName": "Engineering Strategy",
+  "version": "1.0.0",
+  "description": "Engineering strategy. Skills: engineering-strategy (full five steps; writes docs/engineering-strategy.md or docs/<slug>-engineering-strategy.md in reader order: policy, operations, refine, diagnose, explore; Draft until human sign-off), strategy-explore (alternatives, state of the art, implicit rules already in the repo), strategy-diagnosis (theory of the challenge; dissenting views; data when it exists), strategy-refine (modes test / map / model / both / skip), strategy-operations (inspect, exception, cadence), strategy-evaluate (existing strategy: iterate speed, cost of the next test, fit to diagnosis). Invoke strategy-explore when priors are thin; strategy-diagnosis when the challenge is unclear; strategy-refine before org-wide pressure; strategy-operations when policies need inspection; strategy-evaluate on a living file; engineering-strategy for the living document.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "engineering-strategy",
+    "diagnosis",
+    "wardley",
+    "policy",
+    "operations",
+    "explore"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace",
+  "category": "development",
+  "tags": [
+    "engineering-strategy",
+    "diagnosis",
+    "wardley",
+    "policy",
+    "operations",
+    "explore"
+  ]
+}

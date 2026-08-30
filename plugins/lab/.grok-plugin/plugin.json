@@ -1,0 +1,23 @@
+{
+  "name": "lab",
+  "displayName": "Lab",
+  "version": "1.0.0",
+  "description": "Laboratory informatics. Skills: lab-informatics-profile (closed-question intake; writes docs/lab-informatics-profile.md in the consuming repo), lab-informatics-compliance (type-agnostic design reference; load the overlays the profile turned on), lab-system-csv (GAMP 5 validation of the LIMS/LIS/ELN itself: category, URS, risk, IQ/OQ/PQ, traceability), lab-part-11-review (21 CFR 11 / Annex 11 ER/ES and periodic audit-trail review). Start with the profile. Turn on system CSV or Part 11 review from the profile or an explicit flag. Use the design reference for overlays; use lab-system-csv for the informatics-system package; use lab-part-11-review for the operational procedure.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "lims",
+    "lis",
+    "eln",
+    "lab-informatics",
+    "compliance",
+    "audit-trail",
+    "iso-17025",
+    "clia"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace"
+}

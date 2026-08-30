@@ -1,0 +1,28 @@
+{
+  "name": "skill-authoring",
+  "displayName": "Skill Authoring",
+  "version": "1.0.0",
+  "description": "Skill authoring. Skills: skill-builder (create a skill or pack as a folder with SKILL.md, references/, and optional scripts or assets; the YAML description is a when-to-invoke trigger), skill-doctor (restructure an existing SKILL.md, agent-instruction file such as AGENTS.md / CLAUDE.md / similar, or a pack; meaning stays). Invoke skill-builder when creating; invoke skill-doctor when the file is too long, over-constrained, or the description is a summary.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "skill-authoring",
+    "progressive-disclosure",
+    "skills",
+    "skill-builder",
+    "skill-doctor"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace",
+  "category": "development",
+  "tags": [
+    "skill-authoring",
+    "progressive-disclosure",
+    "skills",
+    "skill-builder",
+    "skill-doctor"
+  ]
+}
