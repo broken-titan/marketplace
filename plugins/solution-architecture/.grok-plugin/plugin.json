@@ -1,0 +1,24 @@
+{
+  "name": "solution-architecture",
+  "displayName": "Solution Architecture",
+  "version": "1.0.0",
+  "description": "Engagement architecture. Skills: requirements-defaults (discovery matrix to docs/<slug>-nfr-discovery.md; ask envelope first), rscop-analysis (measurable Reliability, Security, Cost, Operations, and Performance rows), solutions-architecture-document (SAD from that RSCOP; links ADRs), architecture-decision-records (authors ADRs: status, supersedes, options, consequences; MADR or Y-statement), c4-diagrams (Context and Container, plus Deployment when asked; modes design / prose / review / update), requirements (feature-level living spec with FR-* and NFR-* IDs), astro-elt-contexts (Astro, Airflow, and dbt warehouse ELT). Use defaults, then RSCOP, then SAD for an engagement; write decisions with architecture-decision-records; emit diagrams with c4-diagrams; use requirements for a single feature; use astro-elt-contexts for pipeline code.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "sdlc",
+    "requirements",
+    "architecture",
+    "rscop",
+    "elt",
+    "airflow",
+    "astronomer",
+    "dbt",
+    "warehouse"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace"
+}

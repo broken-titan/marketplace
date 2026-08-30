@@ -1,0 +1,28 @@
+{
+  "name": "tolkien",
+  "displayName": "Tolkien",
+  "version": "1.0.0",
+  "description": "High-fantasy walking narration. Skill: tolkien-prose. Recap and journal rewrite is the default: keep facts, names, and outcomes. Original-fiction and NPC-voice overlays load when docs/tolkien-prose-profile.md or the user asks for them. Start by running the intake in that skill to write the profile in the consuming repo, then write in recap mode unless the profile or the user asks for original fiction or NPC voice.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "tolkien",
+    "fantasy",
+    "ttrpg",
+    "prose",
+    "narrative"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace",
+  "category": "writing",
+  "tags": [
+    "tolkien",
+    "fantasy",
+    "ttrpg",
+    "prose",
+    "narrative"
+  ]
+}
