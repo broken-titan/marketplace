@@ -1,0 +1,36 @@
+{
+  "name": "software-engineering",
+  "displayName": "Software Engineering",
+  "version": "1.0.2",
+  "description": "Write and change source code.\n\n- test-driven-development: Write a failing test for the missing behavior before you write production code.\n- parameterized-testing: Put every case for one behavior in one table, and give each row a name.\n- systematic-debugging: Reproduce the bug before you edit.\n- verification-before-completion: Run the checks on this tree and paste the command and the output before you say the work is done.\n- code-simplify: Delete and flatten extra code; use the language, then a framework already in the repo, then a library already in the repo.\n- requesting-code-review: Read the whole diff and write findings as file:line plus severity.\n- receiving-code-review: Open the cited line, then fix it, reject it and say why, or ask if you need more.\n- complexity-refactor: Measure cyclomatic complexity, then refactor the worst functions first.\n- comment-police: Add no comments when writing or editing source, unless an exception applies.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "software-engineering",
+    "test-driven-development",
+    "parameterized-testing",
+    "systematic-debugging",
+    "verification-before-completion",
+    "code-simplify",
+    "complexity-refactor",
+    "comment-police",
+    "requesting-code-review",
+    "receiving-code-review"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Software Engineering",
+    "shortDescription": "Write and change source code.\n\n- test-driven-development: Write a failing test for the missing behavior before you write production code.\n- parameterized-testing: Put every case for one behavior in one table, and give each row a name.\n- systematic-debugging: Reproduce the bug before you edit.\n- verification-before-completion: Run the checks on this tree and paste the command and the output before you say the work is done.\n- code-simplify: Delete and flatten extra code; use the language, then a framework already in the repo, then a library already in the repo.\n- requesting-code-review: Read the whole diff and write findings as file:line plus severity.\n- receiving-code-review: Open the cited line, then fix it, reject it and say why, or ask if you need more.\n- complexity-refactor: Measure cyclomatic complexity, then refactor the worst functions first.\n- comment-police: Add no comments when writing or editing source, unless an exception applies.",
+    "developerName": "Broken Titan",
+    "category": "Development",
+    "websiteURL": "https://github.com/broken-titan/marketplace",
+    "logo": "./assets/logo.svg"
+  }
+}

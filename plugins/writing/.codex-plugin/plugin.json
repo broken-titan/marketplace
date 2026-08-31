@@ -1,0 +1,29 @@
+{
+  "name": "writing",
+  "displayName": "Writing",
+  "version": "1.0.1",
+  "description": "Draft in the user's voice, and write errors they will see.\n\n- writing-voice: When you draft or revise documents, guides, emails, chat, tickets, or commit messages on the user's behalf, write the way this person writes.\n- writing-error-messages: When you write or revise an error the user will see, say what happened, why, and what they should do next.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "writing-voice",
+    "writing-error-messages"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Writing",
+    "shortDescription": "Draft in the user's voice, and write errors they will see.\n\n- writing-voice: When you draft or revise documents, guides, emails, chat, tickets, or commit messages on the user's behalf, write the way this person writes.\n- writing-error-messages: When you write or revise an error the user will see, say what happened, why, and what they should do next.",
+    "developerName": "Broken Titan",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/broken-titan/marketplace",
+    "logo": "./assets/logo.svg"
+  },
+  "hooks": "./hooks/hooks.json"
+}
