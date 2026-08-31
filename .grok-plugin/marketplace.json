@@ -18,24 +18,22 @@
       "license": "UNLICENSED",
       "category": "domain",
       "keywords": [
-        "lims",
-        "lis",
-        "eln",
+        "broken titan",
+        "broken-titan",
         "lab-informatics",
-        "compliance",
-        "audit-trail",
-        "iso-17025",
-        "clia"
+        "lab-informatics-profile",
+        "lab-informatics-compliance",
+        "lab-system-csv",
+        "lab-part-11-review"
       ],
       "tags": [
-        "lims",
-        "lis",
-        "eln",
+        "broken titan",
+        "broken-titan",
         "lab-informatics",
-        "compliance",
-        "audit-trail",
-        "iso-17025",
-        "clia"
+        "lab-informatics-profile",
+        "lab-informatics-compliance",
+        "lab-system-csv",
+        "lab-part-11-review"
       ],
       "source": {
         "type": "local",
@@ -56,26 +54,28 @@
       "license": "UNLICENSED",
       "category": "development",
       "keywords": [
-        "sdlc",
-        "requirements",
-        "architecture",
+        "broken titan",
+        "broken-titan",
+        "solution-architecture",
         "rscop",
-        "elt",
-        "airflow",
-        "astronomer",
-        "dbt",
-        "warehouse"
+        "rscop-analysis",
+        "requirements-defaults",
+        "solutions-architecture-document",
+        "architecture-decision-records",
+        "c4-diagrams",
+        "astro-elt-contexts"
       ],
       "tags": [
-        "sdlc",
-        "requirements",
-        "architecture",
+        "broken titan",
+        "broken-titan",
+        "solution-architecture",
         "rscop",
-        "elt",
-        "airflow",
-        "astronomer",
-        "dbt",
-        "warehouse"
+        "rscop-analysis",
+        "requirements-defaults",
+        "solutions-architecture-document",
+        "architecture-decision-records",
+        "c4-diagrams",
+        "astro-elt-contexts"
       ],
       "source": {
         "type": "local",
@@ -96,20 +96,24 @@
       "license": "UNLICENSED",
       "category": "development",
       "keywords": [
+        "broken titan",
+        "broken-titan",
         "engineering-strategy",
-        "diagnosis",
-        "wardley",
-        "policy",
-        "operations",
-        "explore"
+        "strategy-explore",
+        "strategy-diagnosis",
+        "strategy-refine",
+        "strategy-operations",
+        "strategy-evaluate"
       ],
       "tags": [
+        "broken titan",
+        "broken-titan",
         "engineering-strategy",
-        "diagnosis",
-        "wardley",
-        "policy",
-        "operations",
-        "explore"
+        "strategy-explore",
+        "strategy-diagnosis",
+        "strategy-refine",
+        "strategy-operations",
+        "strategy-evaluate"
       ],
       "source": {
         "type": "local",
@@ -130,24 +134,30 @@
       "license": "UNLICENSED",
       "category": "development",
       "keywords": [
+        "broken titan",
+        "broken-titan",
         "software-engineering",
-        "code-quality",
-        "complexity",
-        "refactor",
-        "comments",
-        "tdd",
-        "testing",
-        "review"
+        "test-driven-development",
+        "parameterized-testing",
+        "systematic-debugging",
+        "verification-before-completion",
+        "complexity-refactor",
+        "comment-police",
+        "requesting-code-review",
+        "receiving-code-review"
       ],
       "tags": [
+        "broken titan",
+        "broken-titan",
         "software-engineering",
-        "code-quality",
-        "complexity",
-        "refactor",
-        "comments",
-        "tdd",
-        "testing",
-        "review"
+        "test-driven-development",
+        "parameterized-testing",
+        "systematic-debugging",
+        "verification-before-completion",
+        "complexity-refactor",
+        "comment-police",
+        "requesting-code-review",
+        "receiving-code-review"
       ],
       "source": {
         "type": "local",
@@ -168,20 +178,30 @@
       "license": "UNLICENSED",
       "category": "development",
       "keywords": [
-        "jira",
-        "sdd",
-        "spec-driven-development",
-        "workflow",
-        "loop",
-        "autonomous"
+        "broken titan",
+        "broken-titan",
+        "sdd-loop",
+        "sdd-init",
+        "sdd-doctor",
+        "sdd-orchestrator",
+        "sdd-clarify",
+        "sdd-analyze",
+        "sdd-constitution",
+        "sdd-converge",
+        "sdd-status"
       ],
       "tags": [
-        "jira",
-        "sdd",
-        "spec-driven-development",
-        "workflow",
-        "loop",
-        "autonomous"
+        "broken titan",
+        "broken-titan",
+        "sdd-loop",
+        "sdd-init",
+        "sdd-doctor",
+        "sdd-orchestrator",
+        "sdd-clarify",
+        "sdd-analyze",
+        "sdd-constitution",
+        "sdd-converge",
+        "sdd-status"
       ],
       "source": {
         "type": "local",
@@ -202,16 +222,16 @@
       "license": "UNLICENSED",
       "category": "productivity",
       "keywords": [
-        "writing",
-        "voice",
-        "style",
-        "error-messages"
+        "broken titan",
+        "broken-titan",
+        "writing-voice",
+        "writing-error-messages"
       ],
       "tags": [
-        "writing",
-        "voice",
-        "style",
-        "error-messages"
+        "broken titan",
+        "broken-titan",
+        "writing-voice",
+        "writing-error-messages"
       ],
       "source": {
         "type": "local",
@@ -232,16 +252,16 @@
       "license": "UNLICENSED",
       "category": "development",
       "keywords": [
+        "broken titan",
+        "broken-titan",
         "skill-authoring",
-        "progressive-disclosure",
-        "skills",
         "skill-builder",
         "skill-doctor"
       ],
       "tags": [
+        "broken titan",
+        "broken-titan",
         "skill-authoring",
-        "progressive-disclosure",
-        "skills",
         "skill-builder",
         "skill-doctor"
       ],

@@ -9,29 +9,31 @@
   },
   "license": "UNLICENSED",
   "keywords": [
-    "sdlc",
-    "requirements",
-    "architecture",
+    "broken titan",
+    "broken-titan",
+    "solution-architecture",
     "rscop",
-    "elt",
-    "airflow",
-    "astronomer",
-    "dbt",
-    "warehouse"
+    "rscop-analysis",
+    "requirements-defaults",
+    "solutions-architecture-document",
+    "architecture-decision-records",
+    "c4-diagrams",
+    "astro-elt-contexts"
   ],
   "homepage": "https://github.com/broken-titan/marketplace",
   "repository": "https://github.com/broken-titan/marketplace",
   "logo": "assets/logo.svg",
   "category": "development",
   "tags": [
-    "sdlc",
-    "requirements",
-    "architecture",
+    "broken titan",
+    "broken-titan",
+    "solution-architecture",
     "rscop",
-    "elt",
-    "airflow",
-    "astronomer",
-    "dbt",
-    "warehouse"
+    "rscop-analysis",
+    "requirements-defaults",
+    "solutions-architecture-document",
+    "architecture-decision-records",
+    "c4-diagrams",
+    "astro-elt-contexts"
   ]
 }

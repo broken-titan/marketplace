@@ -9,12 +9,14 @@
   },
   "license": "UNLICENSED",
   "keywords": [
+    "broken titan",
+    "broken-titan",
     "engineering-strategy",
-    "diagnosis",
-    "wardley",
-    "policy",
-    "operations",
-    "explore"
+    "strategy-explore",
+    "strategy-diagnosis",
+    "strategy-refine",
+    "strategy-operations",
+    "strategy-evaluate"
   ],
   "homepage": "https://github.com/broken-titan/marketplace",
   "repository": "https://github.com/broken-titan/marketplace"

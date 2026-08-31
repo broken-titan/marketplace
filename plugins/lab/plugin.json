@@ -9,14 +9,13 @@
   },
   "license": "UNLICENSED",
   "keywords": [
-    "lims",
-    "lis",
-    "eln",
+    "broken titan",
+    "broken-titan",
     "lab-informatics",
-    "compliance",
-    "audit-trail",
-    "iso-17025",
-    "clia"
+    "lab-informatics-profile",
+    "lab-informatics-compliance",
+    "lab-system-csv",
+    "lab-part-11-review"
   ],
   "homepage": "https://github.com/broken-titan/marketplace",
   "repository": "https://github.com/broken-titan/marketplace"

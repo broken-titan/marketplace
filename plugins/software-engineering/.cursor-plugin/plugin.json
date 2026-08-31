@@ -9,27 +9,33 @@
   },
   "license": "UNLICENSED",
   "keywords": [
+    "broken titan",
+    "broken-titan",
     "software-engineering",
-    "code-quality",
-    "complexity",
-    "refactor",
-    "comments",
-    "tdd",
-    "testing",
-    "review"
+    "test-driven-development",
+    "parameterized-testing",
+    "systematic-debugging",
+    "verification-before-completion",
+    "complexity-refactor",
+    "comment-police",
+    "requesting-code-review",
+    "receiving-code-review"
   ],
   "homepage": "https://github.com/broken-titan/marketplace",
   "repository": "https://github.com/broken-titan/marketplace",
   "logo": "assets/logo.svg",
   "category": "development",
   "tags": [
+    "broken titan",
+    "broken-titan",
     "software-engineering",
-    "code-quality",
-    "complexity",
-    "refactor",
-    "comments",
-    "tdd",
-    "testing",
-    "review"
+    "test-driven-development",
+    "parameterized-testing",
+    "systematic-debugging",
+    "verification-before-completion",
+    "complexity-refactor",
+    "comment-police",
+    "requesting-code-review",
+    "receiving-code-review"
   ]
 }

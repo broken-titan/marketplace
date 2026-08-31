@@ -9,23 +9,33 @@
   },
   "license": "UNLICENSED",
   "keywords": [
-    "jira",
-    "sdd",
-    "spec-driven-development",
-    "workflow",
-    "loop",
-    "autonomous"
+    "broken titan",
+    "broken-titan",
+    "sdd-loop",
+    "sdd-init",
+    "sdd-doctor",
+    "sdd-orchestrator",
+    "sdd-clarify",
+    "sdd-analyze",
+    "sdd-constitution",
+    "sdd-converge",
+    "sdd-status"
   ],
   "homepage": "https://github.com/broken-titan/marketplace",
   "repository": "https://github.com/broken-titan/marketplace",
   "logo": "assets/logo.svg",
   "category": "development",
   "tags": [
-    "jira",
-    "sdd",
-    "spec-driven-development",
-    "workflow",
-    "loop",
-    "autonomous"
+    "broken titan",
+    "broken-titan",
+    "sdd-loop",
+    "sdd-init",
+    "sdd-doctor",
+    "sdd-orchestrator",
+    "sdd-clarify",
+    "sdd-analyze",
+    "sdd-constitution",
+    "sdd-converge",
+    "sdd-status"
   ]
 }

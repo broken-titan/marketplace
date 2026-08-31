@@ -9,9 +9,9 @@
   },
   "license": "UNLICENSED",
   "keywords": [
+    "broken titan",
+    "broken-titan",
     "skill-authoring",
-    "progressive-disclosure",
-    "skills",
     "skill-builder",
     "skill-doctor"
   ],
@@ -20,9 +20,9 @@
   "logo": "assets/logo.svg",
   "category": "development",
   "tags": [
+    "broken titan",
+    "broken-titan",
     "skill-authoring",
-    "progressive-disclosure",
-    "skills",
     "skill-builder",
     "skill-doctor"
   ]
