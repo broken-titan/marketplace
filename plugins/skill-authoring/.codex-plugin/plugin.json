@@ -23,6 +23,7 @@
     "shortDescription": "Skill authoring. Skills: skill-builder (create a skill or pack as a folder with SKILL.md, references/, and optional scripts or assets; the YAML description is a when-to-invoke trigger), skill-doctor (restructure an existing SKILL.md, agent-instruction file such as AGENTS.md / CLAUDE.md / similar, or a pack; meaning stays). Invoke skill-builder when creating; invoke skill-doctor when the file is too long, over-constrained, or the description is a summary.",
     "developerName": "Broken Titan",
     "category": "Development",
-    "websiteURL": "https://github.com/broken-titan/marketplace"
+    "websiteURL": "https://github.com/broken-titan/marketplace",
+    "logo": "./assets/logo.svg"
   }
 }

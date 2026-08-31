@@ -24,6 +24,7 @@
     "shortDescription": "Spec-driven ticket loop through merge. Skills: sdd-init (writes ## SDD Scope and ## Verification to agent-instruction files such as AGENTS.md, CLAUDE.md, or similar, or docs/sdd-scope.md), sdd-doctor (read-only health check), sdd (entry: help, ticket key, intake, batch, auto, review, evolve, stop; aliases specify\u2248spec, plan\u2248design, implement\u2248dev), sdd-orchestrator (stage playbooks), sdd-clarify (re-run Spec Clarify Loop), sdd-analyze (read-only cross-artifact gate), sdd-constitution (amend docs/sdd-constitution.md), sdd-converge (after verify, until Converged), sdd-status (queue, stage, GATES/PENDING/ATTENTION, preflight). Start with sdd-init, then sdd-doctor, then sdd. Default tracker is Jira; Linear and GitHub Issues are scope flags. Mechanical write guards ship as host extras.",
     "developerName": "Broken Titan",
     "category": "Development",
-    "websiteURL": "https://github.com/broken-titan/marketplace"
+    "websiteURL": "https://github.com/broken-titan/marketplace",
+    "logo": "./assets/logo.svg"
   }
 }

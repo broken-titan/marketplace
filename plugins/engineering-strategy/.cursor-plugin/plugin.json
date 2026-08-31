@@ -18,6 +18,7 @@
   ],
   "homepage": "https://github.com/broken-titan/marketplace",
   "repository": "https://github.com/broken-titan/marketplace",
+  "logo": "assets/logo.svg",
   "category": "development",
   "tags": [
     "engineering-strategy",

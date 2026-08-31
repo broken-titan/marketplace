@@ -22,6 +22,7 @@
     "shortDescription": "Personal writing voice and user-facing error text. Skills: writing-voice (documents, guides, email, chat, tickets, and commit messages), writing-error-messages (user-facing errors in three parts: what happened, why, and next steps the user should take). Use voice when drafting or revising prose on the user's behalf; use error-messages for UI, API, or log user text.",
     "developerName": "Broken Titan",
     "category": "Productivity",
-    "websiteURL": "https://github.com/broken-titan/marketplace"
+    "websiteURL": "https://github.com/broken-titan/marketplace",
+    "logo": "./assets/logo.svg"
   }
 }

@@ -26,6 +26,7 @@
     "shortDescription": "Code craft. Skills: test-driven-development (failing test first, smallest green, refactor only while green), parameterized-testing (one table with a name on each row; failing row first), systematic-debugging (reproduce the bug before you edit), verification-before-completion (paste the command and the output before saying done), simplify (delete and flatten; inline one-caller abstractions; prefer native and existing APIs), requesting-code-review (findings with file:line and severity), receiving-code-review (check each finding, then fix it, reject it and say why, or ask), complexity-refactor (measure cyclomatic complexity, refactor hotspots, before/after table; project linter thresholds win), comment-police (default add no comments; exceptions for license/SPDX, lint suppressions, generated-file banners, public-API contracts). Use test-driven-development when implementing a feature or bugfix; parameterized-testing when one behavior has many cases; systematic-debugging when a bug or surprise appears; verification-before-completion before calling the work done; simplify after green or when cleaning overbuilt code; requesting-code-review when a change is complete; receiving-code-review when comments arrive; complexity-refactor when reviewing or simplifying branching code; comment-police when writing or editing source.",
     "developerName": "Broken Titan",
     "category": "Development",
-    "websiteURL": "https://github.com/broken-titan/marketplace"
+    "websiteURL": "https://github.com/broken-titan/marketplace",
+    "logo": "./assets/logo.svg"
   }
 }

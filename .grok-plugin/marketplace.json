@@ -8,12 +8,14 @@
   "plugins": [
     {
       "name": "lab",
+      "displayName": "Lab",
       "description": "Laboratory informatics. Skills: lab-informatics-profile (closed-question intake; writes docs/lab-informatics-profile.md in the consuming repo), lab-informatics-compliance (type-agnostic design reference; load the overlays the profile turned on), lab-system-csv (GAMP 5 validation of the LIMS/LIS/ELN itself: category, URS, risk, IQ/OQ/PQ, traceability), lab-part-11-review (21 CFR 11 / Annex 11 ER/ES and periodic audit-trail review). Start with the profile. Turn on system CSV or Part 11 review from the profile or an explicit flag. Use the design reference for overlays; use lab-system-csv for the informatics-system package; use lab-part-11-review for the operational procedure.",
       "version": "1.0.0",
       "author": {
         "name": "Broken Titan",
         "url": "https://github.com/broken-titan"
       },
+      "license": "UNLICENSED",
       "category": "domain",
       "keywords": [
         "lims",
@@ -39,16 +41,19 @@
         "type": "local",
         "path": "./plugins/lab"
       },
-      "homepage": "https://github.com/broken-titan/marketplace"
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
     },
     {
       "name": "solution-architecture",
+      "displayName": "Solution Architecture",
       "description": "Engagement architecture. Skills: requirements-defaults (discovery matrix to docs/<slug>-nfr-discovery.md; ask envelope first), rscop-analysis (measurable Reliability, Security, Cost, Operations, and Performance rows), solutions-architecture-document (SAD from that RSCOP; links ADRs), architecture-decision-records (authors ADRs: status, supersedes, options, consequences; MADR or Y-statement), c4-diagrams (Context and Container, plus Deployment when asked; modes design / prose / review / update), requirements (feature-level living spec with FR-* and NFR-* IDs), astro-elt-contexts (Astro, Airflow, and dbt warehouse ELT). Use defaults, then RSCOP, then SAD for an engagement; write decisions with architecture-decision-records; emit diagrams with c4-diagrams; use requirements for a single feature; use astro-elt-contexts for pipeline code.",
       "version": "1.0.0",
       "author": {
         "name": "Broken Titan",
         "url": "https://github.com/broken-titan"
       },
+      "license": "UNLICENSED",
       "category": "development",
       "keywords": [
         "sdlc",
@@ -76,16 +81,19 @@
         "type": "local",
         "path": "./plugins/solution-architecture"
       },
-      "homepage": "https://github.com/broken-titan/marketplace"
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
     },
     {
       "name": "engineering-strategy",
+      "displayName": "Engineering Strategy",
       "description": "Engineering strategy. Skills: engineering-strategy (full five steps; writes docs/engineering-strategy.md or docs/<slug>-engineering-strategy.md in reader order: policy, operations, refine, diagnose, explore; Draft until human sign-off), strategy-explore (alternatives, state of the art, implicit rules already in the repo), strategy-diagnosis (theory of the challenge; dissenting views; data when it exists), strategy-refine (modes test / map / model / both / skip), strategy-operations (inspect, exception, cadence), strategy-evaluate (existing strategy: iterate speed, cost of the next test, fit to diagnosis). Invoke strategy-explore when priors are thin; strategy-diagnosis when the challenge is unclear; strategy-refine before org-wide pressure; strategy-operations when policies need inspection; strategy-evaluate on a living file; engineering-strategy for the living document.",
       "version": "1.0.0",
       "author": {
         "name": "Broken Titan",
         "url": "https://github.com/broken-titan"
       },
+      "license": "UNLICENSED",
       "category": "development",
       "keywords": [
         "engineering-strategy",
@@ -107,16 +115,19 @@
         "type": "local",
         "path": "./plugins/engineering-strategy"
       },
-      "homepage": "https://github.com/broken-titan/marketplace"
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
     },
     {
       "name": "software-engineering",
+      "displayName": "Software Engineering",
       "description": "Code craft. Skills: test-driven-development (failing test first, smallest green, refactor only while green), parameterized-testing (one table with a name on each row; failing row first), systematic-debugging (reproduce the bug before you edit), verification-before-completion (paste the command and the output before saying done), simplify (delete and flatten; inline one-caller abstractions; prefer native and existing APIs), requesting-code-review (findings with file:line and severity), receiving-code-review (check each finding, then fix it, reject it and say why, or ask), complexity-refactor (measure cyclomatic complexity, refactor hotspots, before/after table; project linter thresholds win), comment-police (default add no comments; exceptions for license/SPDX, lint suppressions, generated-file banners, public-API contracts). Use test-driven-development when implementing a feature or bugfix; parameterized-testing when one behavior has many cases; systematic-debugging when a bug or surprise appears; verification-before-completion before calling the work done; simplify after green or when cleaning overbuilt code; requesting-code-review when a change is complete; receiving-code-review when comments arrive; complexity-refactor when reviewing or simplifying branching code; comment-police when writing or editing source.",
       "version": "1.0.0",
       "author": {
         "name": "Broken Titan",
         "url": "https://github.com/broken-titan"
       },
+      "license": "UNLICENSED",
       "category": "development",
       "keywords": [
         "software-engineering",
@@ -142,16 +153,19 @@
         "type": "local",
         "path": "./plugins/software-engineering"
       },
-      "homepage": "https://github.com/broken-titan/marketplace"
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
     },
     {
       "name": "sdd-loop",
+      "displayName": "SDD Loop",
       "description": "Spec-driven ticket loop through merge. Skills: sdd-init (writes ## SDD Scope and ## Verification to agent-instruction files such as AGENTS.md, CLAUDE.md, or similar, or docs/sdd-scope.md), sdd-doctor (read-only health check), sdd (entry: help, ticket key, intake, batch, auto, review, evolve, stop; aliases specify\u2248spec, plan\u2248design, implement\u2248dev), sdd-orchestrator (stage playbooks), sdd-clarify (re-run Spec Clarify Loop), sdd-analyze (read-only cross-artifact gate), sdd-constitution (amend docs/sdd-constitution.md), sdd-converge (after verify, until Converged), sdd-status (queue, stage, GATES/PENDING/ATTENTION, preflight). Start with sdd-init, then sdd-doctor, then sdd. Default tracker is Jira; Linear and GitHub Issues are scope flags. Mechanical write guards ship as host extras.",
       "version": "1.0.0",
       "author": {
         "name": "Broken Titan",
         "url": "https://github.com/broken-titan"
       },
+      "license": "UNLICENSED",
       "category": "development",
       "keywords": [
         "jira",
@@ -173,16 +187,19 @@
         "type": "local",
         "path": "./plugins/sdd-loop"
       },
-      "homepage": "https://github.com/broken-titan/marketplace"
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
     },
     {
       "name": "writing",
+      "displayName": "Writing",
       "description": "Personal writing voice and user-facing error text. Skills: writing-voice (documents, guides, email, chat, tickets, and commit messages), writing-error-messages (user-facing errors in three parts: what happened, why, and next steps the user should take). Use voice when drafting or revising prose on the user's behalf; use error-messages for UI, API, or log user text.",
       "version": "1.0.0",
       "author": {
         "name": "Broken Titan",
         "url": "https://github.com/broken-titan"
       },
+      "license": "UNLICENSED",
       "category": "productivity",
       "keywords": [
         "writing",
@@ -200,16 +217,19 @@
         "type": "local",
         "path": "./plugins/writing"
       },
-      "homepage": "https://github.com/broken-titan/marketplace"
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
     },
     {
       "name": "skill-authoring",
+      "displayName": "Skill Authoring",
       "description": "Skill authoring. Skills: skill-builder (create a skill or pack as a folder with SKILL.md, references/, and optional scripts or assets; the YAML description is a when-to-invoke trigger), skill-doctor (restructure an existing SKILL.md, agent-instruction file such as AGENTS.md / CLAUDE.md / similar, or a pack; meaning stays). Invoke skill-builder when creating; invoke skill-doctor when the file is too long, over-constrained, or the description is a summary.",
       "version": "1.0.0",
       "author": {
         "name": "Broken Titan",
         "url": "https://github.com/broken-titan"
       },
+      "license": "UNLICENSED",
       "category": "development",
       "keywords": [
         "skill-authoring",
@@ -229,7 +249,8 @@
         "type": "local",
         "path": "./plugins/skill-authoring"
       },
-      "homepage": "https://github.com/broken-titan/marketplace"
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
     }
   ]
 }
