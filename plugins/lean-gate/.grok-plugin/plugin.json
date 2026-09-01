@@ -1,0 +1,18 @@
+{
+  "name": "lean-gate",
+  "displayName": "Lean Gate",
+  "version": "1.0.0",
+  "description": "Stop at git commit and git push, and keep only the change the request actually needs.\n\n- lean-gate: Before you commit or push, walk the staged or to-be-pushed diff and ship the smallest change that meets the request.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "lean-gate"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace"
+}
