@@ -1,0 +1,30 @@
+Plugins
+
+Catalog: marketplace.json
+Skills: plugins
+Plugins: 9
+
+- engineering-strategy: 6 skills (engineering-strategy, strategy-diagnosis, strategy-evaluate, strategy-explore, strategy-operations, strategy-refine)
+- frontend-aesthetics: 1 skills (frontend-aesthetics)
+- lab: 4 skills (lab-informatics-compliance, lab-informatics-profile, lab-part-11-review, lab-system-csv)
+- lean-gate: 1 skills (lean-gate)
+- sdd-loop: 9 skills (sdd, sdd-analyze, sdd-clarify, sdd-constitution, sdd-converge, sdd-doctor, sdd-init, sdd-orchestrator, sdd-status)
+- skill-authoring: 3 skills (plugin-semver, skill-builder, skill-doctor)
+- software-engineering: 10 skills (code-simplify, comment-police, complexity-refactor, exhaustive-match, parameterized-testing, receiving-code-review, requesting-code-review, systematic-debugging, test-driven-development, verification-before-completion)
+- solution-architecture: 7 skills (architecture-decision-records, astro-elt-contexts, c4-diagrams, requirements, requirements-defaults, rscop-analysis, solutions-architecture-document)
+- writing: 2 skills (writing-error-messages, writing-voice)
+
+Published tag root:
+- .claude-plugin/marketplace.json
+- .cursor-plugin/marketplace.json
+- .grok-plugin/marketplace.json
+- .agents/plugins/marketplace.json
+- plugins/<name>/  skills/ plus host manifests
+
+Each plugins/<name>/ includes:
+- .claude-plugin/plugin.json
+- .cursor-plugin/plugin.json
+- .codex-plugin/plugin.json
+- .grok-plugin/plugin.json
+- plugin.json  ($schema https://agent-plugins.org/schemas/1.0.0/plugin.schema.json)
+- skills/

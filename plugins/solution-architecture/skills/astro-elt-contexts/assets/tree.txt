@@ -1,0 +1,19 @@
+{project}/
+  Dockerfile
+  packages.txt
+  requirements.txt
+  airflow_settings.yaml
+  dags/
+    {source}_ingest.py
+    {warehouse}_transform.py
+    {app}_publish.py
+    dbt/{warehouse}/
+  include/
+    pipeline_assets.py
+    sql_loader.py
+    warehouse.py
+    sql/azure_sql/
+    sql/postgres/
+    {source}/extract.py
+    {source}/load.py
+    {app}/publish.py
