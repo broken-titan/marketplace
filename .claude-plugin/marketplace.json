@@ -1,0 +1,341 @@
+{
+  "name": "plugins",
+  "owner": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "metadata": {
+    "description": "Plugins. Enable only the ones that match the work in front of you.",
+    "version": "1.7.0"
+  },
+  "plugins": [
+    {
+      "name": "business",
+      "source": "./plugins/business",
+      "displayName": "Business",
+      "description": "Write founder planning documents that stay on evidence.\n\n- business-plan: Use when turning a business idea into a grounded plan without inventing demand or dollars.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Broken Titan",
+        "url": "https://github.com/broken-titan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "broken titan",
+        "broken-titan",
+        "business",
+        "business-plan"
+      ],
+      "category": "domain",
+      "tags": [
+        "broken titan",
+        "broken-titan",
+        "business",
+        "business-plan"
+      ],
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
+    },
+    {
+      "name": "engineering-strategy",
+      "source": "./plugins/engineering-strategy",
+      "displayName": "Engineering Strategy",
+      "description": "Write a living engineering strategy in the repo you are working in.\n\n- engineering-strategy: When staff-plus or architecture work needs a living strategy, run explore, diagnose, refine, policy, and operations; write docs/engineering-strategy.md or docs/<slug>-engineering-strategy.md in reader order.\n- strategy-explore: When you have not yet explored the problem, write the implicit rules in this repo, the alternatives, and what others already do for this kind of problem, to docs/<slug>-strategy-explore.md.\n- strategy-diagnosis: When the challenge is unclear, write a theory of the problem, the dissenting views, and the data that exists, to docs/<slug>-strategy-diagnosis.md.\n- strategy-refine: Before you roll a strategy out widely, pick test, map, model, both, or skip, and write docs/<slug>-strategy-refine.md.\n- strategy-operations: When guiding policies already exist, write how you inspect them, the exception path, and the review cadence.\n- strategy-evaluate: When a living strategy file already exists, read how fast you can iterate, what the next test costs, and whether the file still fits the diagnosis, then write docs/<slug>-strategy-evaluate.md and leave the strategy file as it is.",
+      "version": "1.0.1",
+      "author": {
+        "name": "Broken Titan",
+        "url": "https://github.com/broken-titan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "broken titan",
+        "broken-titan",
+        "engineering-strategy",
+        "strategy-explore",
+        "strategy-diagnosis",
+        "strategy-refine",
+        "strategy-operations",
+        "strategy-evaluate"
+      ],
+      "category": "development",
+      "tags": [
+        "broken titan",
+        "broken-titan",
+        "engineering-strategy",
+        "strategy-explore",
+        "strategy-diagnosis",
+        "strategy-refine",
+        "strategy-operations",
+        "strategy-evaluate"
+      ],
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
+    },
+    {
+      "name": "frontend-aesthetics",
+      "source": "./plugins/frontend-aesthetics",
+      "displayName": "Frontend Aesthetics",
+      "description": "Give a screen a specific look, not a generic layout.\n\n- frontend-aesthetics: When you build or restyle a user interface, pick a concrete visual direction and ship production states instead of a default card grid.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Broken Titan",
+        "url": "https://github.com/broken-titan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "broken titan",
+        "broken-titan",
+        "frontend-aesthetics"
+      ],
+      "category": "development",
+      "tags": [
+        "broken titan",
+        "broken-titan",
+        "frontend-aesthetics"
+      ],
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
+    },
+    {
+      "name": "lab",
+      "source": "./plugins/lab",
+      "displayName": "Lab",
+      "description": "Laboratory informatics for a LIMS, LIS, or ELN.\n\n- lab-informatics-profile: When you start a LIMS, LIS, or ELN repo, or when compliance overlays are unknown, run the closed-question intake and write docs/lab-informatics-profile.md in the consuming repo.\n- lab-informatics-compliance: When you design or review features that create, store, sign, or report laboratory records, load only the overlays the profile or an explicit flag turned on.\n- lab-system-csv: When GAMP 5 validation of the LIMS, LIS, or ELN itself is in scope, write the category, user requirements, risk, qualification protocols, and traceability files.\n- lab-part-11-review: When 21 CFR 11 or Annex 11 review is in scope, write the operational procedure for electronic records, signatures, and periodic audit-trail review.",
+      "version": "1.0.1",
+      "author": {
+        "name": "Broken Titan",
+        "url": "https://github.com/broken-titan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "broken titan",
+        "broken-titan",
+        "lab-informatics",
+        "lab-informatics-profile",
+        "lab-informatics-compliance",
+        "lab-system-csv",
+        "lab-part-11-review"
+      ],
+      "category": "domain",
+      "tags": [
+        "broken titan",
+        "broken-titan",
+        "lab-informatics",
+        "lab-informatics-profile",
+        "lab-informatics-compliance",
+        "lab-system-csv",
+        "lab-part-11-review"
+      ],
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
+    },
+    {
+      "name": "lean-gate",
+      "source": "./plugins/lean-gate",
+      "displayName": "Lean Gate",
+      "description": "Stop at git commit and git push, and keep only the change the request actually needs.\n\nThe gate stays on until you turn it off in the project.\n\n- lean-gate: Before you commit or push, walk the staged or to-be-pushed diff and ship the smallest change that meets the request.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Broken Titan",
+        "url": "https://github.com/broken-titan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "broken titan",
+        "broken-titan",
+        "lean-gate"
+      ],
+      "category": "development",
+      "tags": [
+        "broken titan",
+        "broken-titan",
+        "lean-gate"
+      ],
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
+    },
+    {
+      "name": "sdd-loop",
+      "source": "./plugins/sdd-loop",
+      "displayName": "SDD Loop",
+      "description": "Take a tracker ticket from intake through merge on a written spec.\n\n- sdd-init: When you enable spec-driven work in this repo, write SDD Scope and Verification to docs/sdd-scope.md or the agent-instruction files, then run the health check.\n- sdd-doctor: When you need to know if the loop is ready, run the read-only health check.\n- sdd: Start here for help, a ticket key, intake, batch, auto, review, evolve, stop, or the specify, plan, and implement aliases.\n- sdd-orchestrator: When a gated ticket needs a stage, infer the stage and run the matching playbook from intake through merge.\n- sdd-clarify: When a ticket already has a spec, re-run the Clarify Loop and keep the spec body.\n- sdd-analyze: When you need a cross-check of spec, design, tasks, and code, run the read-only analyze gate.\n- sdd-constitution: When the project constitution needs an amendment after init, edit docs/sdd-constitution.md.\n- sdd-converge: After verify, when acceptance criteria are still uncovered, run another dev pass until the ticket is Converged.\n- sdd-status: When you only need a one-screen read, print the queue, inferred stage, GATES, PENDING, ATTENTION, and preflight.",
+      "version": "1.0.1",
+      "author": {
+        "name": "Broken Titan",
+        "url": "https://github.com/broken-titan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "broken titan",
+        "broken-titan",
+        "sdd-loop",
+        "sdd-init",
+        "sdd-doctor",
+        "sdd-orchestrator",
+        "sdd-clarify",
+        "sdd-analyze",
+        "sdd-constitution",
+        "sdd-converge",
+        "sdd-status"
+      ],
+      "category": "development",
+      "tags": [
+        "broken titan",
+        "broken-titan",
+        "sdd-loop",
+        "sdd-init",
+        "sdd-doctor",
+        "sdd-orchestrator",
+        "sdd-clarify",
+        "sdd-analyze",
+        "sdd-constitution",
+        "sdd-converge",
+        "sdd-status"
+      ],
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
+    },
+    {
+      "name": "skill-authoring",
+      "source": "./plugins/skill-authoring",
+      "displayName": "Skill Authoring",
+      "description": "Create a skill pack, or restructure one that already exists.\n\n- skill-builder: When you create a new skill or pack, make a folder with SKILL.md, references/, and optional scripts or assets, and write the YAML description as a when-to-invoke trigger.\n- skill-doctor: When an existing SKILL.md, agent-instruction file, or pack is too long or the description is only a summary, restructure it and keep the meaning.\n- plugin-semver: When you change a published plugin or the marketplace catalog, bump plugin and catalog versions from the surface you added or broke.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Broken Titan",
+        "url": "https://github.com/broken-titan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "broken titan",
+        "broken-titan",
+        "skill-authoring",
+        "skill-builder",
+        "skill-doctor",
+        "plugin-semver"
+      ],
+      "category": "development",
+      "tags": [
+        "broken titan",
+        "broken-titan",
+        "skill-authoring",
+        "skill-builder",
+        "skill-doctor",
+        "plugin-semver"
+      ],
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
+    },
+    {
+      "name": "software-engineering",
+      "source": "./plugins/software-engineering",
+      "displayName": "Software Engineering",
+      "description": "Write and change source code.\n\n- test-driven-development: Write a failing test for the missing behavior before you write production code.\n- parameterized-testing: Put every case for one behavior in one table, and give each row a name.\n- systematic-debugging: Reproduce the bug before you edit.\n- verification-before-completion: Run the checks on this tree and paste the command and the output before you say the work is done.\n- code-simplify: Delete and flatten extra code; use the language, then a framework already in the repo, then a library already in the repo.\n- requesting-code-review: Read the whole diff and write findings as file:line plus severity.\n- receiving-code-review: Open the cited line, then fix it, reject it and say why, or ask if you need more.\n- complexity-refactor: Measure cyclomatic complexity, then refactor the worst functions first.\n- comment-police: Add no comments when writing or editing source, unless an exception applies.\n- exhaustive-match: When you switch, match, or map a closed set of keys, handle every member or fail; do not hide a new key in a silent else.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Broken Titan",
+        "url": "https://github.com/broken-titan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "broken titan",
+        "broken-titan",
+        "software-engineering",
+        "test-driven-development",
+        "parameterized-testing",
+        "systematic-debugging",
+        "verification-before-completion",
+        "code-simplify",
+        "complexity-refactor",
+        "comment-police",
+        "requesting-code-review",
+        "receiving-code-review",
+        "exhaustive-match"
+      ],
+      "category": "development",
+      "tags": [
+        "broken titan",
+        "broken-titan",
+        "software-engineering",
+        "test-driven-development",
+        "parameterized-testing",
+        "systematic-debugging",
+        "verification-before-completion",
+        "code-simplify",
+        "complexity-refactor",
+        "comment-police",
+        "requesting-code-review",
+        "receiving-code-review",
+        "exhaustive-match"
+      ],
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
+    },
+    {
+      "name": "solution-architecture",
+      "source": "./plugins/solution-architecture",
+      "displayName": "Solution Architecture",
+      "description": "Requirements and architecture for the current engagement.\n\n- requirements-defaults: During a discovery call or before RSCOP and SAD work, walk each NFR category as HIT, MISS, DEFAULT, or ASK, and write docs/<slug>-nfr-discovery.md.\n- rscop-analysis: When you have a SOW, discovery notes, or intake, write a Reliability, Security, Cost, Operations, and Performance analysis where every row has a measurable target.\n- solutions-architecture-document: When an RSCOP file exists, write the Solutions Architecture Document from it and link the ADRs.\n- architecture-decision-records: When a decision needs a durable record, write an ADR with status, supersedes, options, and consequences.\n- c4-diagrams: When the deliverable is a C4 model, draw Context and Container, and add Deployment when asked.\n- requirements: When you start a feature or new feedback arrives, draft a numbered FR-* and NFR-* spec and stop for a human sign-off.\n- astro-elt-contexts: When you design, generate, or review warehouse ELT on Astro, Airflow, or dbt, land the source, transform it, and publish a contract; apply every gate before you write files.",
+      "version": "1.0.1",
+      "author": {
+        "name": "Broken Titan",
+        "url": "https://github.com/broken-titan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "broken titan",
+        "broken-titan",
+        "solution-architecture",
+        "rscop",
+        "rscop-analysis",
+        "requirements-defaults",
+        "solutions-architecture-document",
+        "architecture-decision-records",
+        "c4-diagrams",
+        "astro-elt-contexts"
+      ],
+      "category": "development",
+      "tags": [
+        "broken titan",
+        "broken-titan",
+        "solution-architecture",
+        "rscop",
+        "rscop-analysis",
+        "requirements-defaults",
+        "solutions-architecture-document",
+        "architecture-decision-records",
+        "c4-diagrams",
+        "astro-elt-contexts"
+      ],
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
+    },
+    {
+      "name": "writing",
+      "source": "./plugins/writing",
+      "displayName": "Writing",
+      "description": "Draft in the user's voice, and write errors they will see.\n\nVoice stays off until you turn it on in the project.\n\n- writing-voice: When you draft or revise documents, guides, emails, chat, tickets, or commit messages on the user's behalf, write the way this person writes.\n- writing-error-messages: When you write or revise an error the user will see, say what happened, why, and what they should do next.",
+      "version": "1.0.3",
+      "author": {
+        "name": "Broken Titan",
+        "url": "https://github.com/broken-titan"
+      },
+      "license": "MIT",
+      "keywords": [
+        "broken titan",
+        "broken-titan",
+        "writing-voice",
+        "writing-error-messages"
+      ],
+      "category": "productivity",
+      "tags": [
+        "broken titan",
+        "broken-titan",
+        "writing-voice",
+        "writing-error-messages"
+      ],
+      "homepage": "https://github.com/broken-titan/marketplace",
+      "repository": "https://github.com/broken-titan/marketplace"
+    }
+  ]
+}

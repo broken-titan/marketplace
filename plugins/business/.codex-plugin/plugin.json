@@ -1,0 +1,27 @@
+{
+  "name": "business",
+  "displayName": "Business",
+  "version": "1.0.0",
+  "description": "Write founder planning documents that stay on evidence.\n\n- business-plan: Use when turning a business idea into a grounded plan without inventing demand or dollars.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "business",
+    "business-plan"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Business",
+    "shortDescription": "Write founder planning documents that stay on evidence.\n\n- business-plan: Use when turning a business idea into a grounded plan without inventing demand or dollars.",
+    "developerName": "Broken Titan",
+    "category": "Domain",
+    "websiteURL": "https://github.com/broken-titan/marketplace"
+  }
+}
