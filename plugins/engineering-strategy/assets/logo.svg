@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Engineering Strategy">
+  <rect width="512" height="512" rx="96" fill="#B45309"/>
+  <circle cx="256" cy="256" r="148" fill="none" stroke="#FEF3C7" stroke-width="22"/>
+  <circle cx="256" cy="256" r="18" fill="#FEF3C7"/>
+  <path fill="#FEF3C7" d="M256 116l28 96-28 28-28-28z"/>
+  <path fill="#FDE68A" d="M396 256l-96 28-28-28 28-28z"/>
+  <path fill="#FDE68A" d="M256 396l-28-96 28-28 28 28z"/>
+  <path fill="#FDE68A" d="M116 256l96-28 28 28-28 28z"/>
+</svg>

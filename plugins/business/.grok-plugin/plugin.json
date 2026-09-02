@@ -1,0 +1,25 @@
+{
+  "name": "business",
+  "displayName": "Business",
+  "version": "1.6.0",
+  "description": "Write founder planning documents that stay on evidence.\n\n- business-plan: Use when turning a business idea into a grounded plan without inventing demand or dollars.\n- market-research-brief: Use when sizing demand with cited sources.\n- competitive-teardown: Use when mapping rivals for a founder plan.\n- pricing-one-pager: Use when setting or defending a price.\n- financial-assumptions: Use when building assumption-driven projections, not a spreadsheet replacement.\n- go-to-market: Use when turning an offer into how customers find and buy it.\n- pitch-narrative: Use when compressing a finished plan into a pitch.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "business",
+    "business-plan",
+    "market-research-brief",
+    "competitive-teardown",
+    "pricing-one-pager",
+    "financial-assumptions",
+    "go-to-market",
+    "pitch-narrative"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace"
+}
