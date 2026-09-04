@@ -1,0 +1,21 @@
+{
+  "name": "writing",
+  "displayName": "Writing",
+  "version": "1.2.1",
+  "description": "Draft in the user's voice, write errors they will see, and write setup checklists.\n\nVoice stays off until you turn it on in the project. Density stays on until you turn it off.\n\n- writing-voice: When you draft or revise documents, guides, emails, chat, tickets, or commit messages on the user's behalf, write the way this person writes.\n- writing-error-messages: When you write or revise an error the user will see, say what happened, why, and what they should do next.\n- setup-checklist: Use when writing an ordered setup or ticket checklist that someone has to run.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "writing-voice",
+    "writing-density",
+    "writing-error-messages",
+    "setup-checklist"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace"
+}

@@ -1,0 +1,82 @@
+{
+  "kind": "graph",
+  "title": "Tiny fictional checkout write",
+  "source": "fictional fixture",
+  "lenses": ["architecture", "data-flow"],
+  "lanes": [
+    { "id": "edge", "label": "Edge" },
+    { "id": "app", "label": "App" },
+    { "id": "store", "label": "Store" }
+  ],
+  "nodes": [
+    {
+      "id": "api",
+      "label": "Checkout API",
+      "kind": "route",
+      "lane": "edge",
+      "delta": "changed",
+      "evidence": "fact",
+      "cite": "src/api.ts:10"
+    },
+    {
+      "id": "writer",
+      "label": "Charge writer",
+      "kind": "service",
+      "lane": "app",
+      "delta": "new",
+      "evidence": "fact",
+      "cite": "src/charge.ts:1"
+    },
+    {
+      "id": "legacy",
+      "label": "Legacy bill",
+      "kind": "job",
+      "lane": "app",
+      "delta": "removed",
+      "evidence": "fact",
+      "cite": "src/bill.ts:1"
+    },
+    {
+      "id": "db",
+      "label": "Orders DB",
+      "kind": "store",
+      "lane": "store",
+      "delta": "unchanged",
+      "evidence": "assumption"
+    }
+  ],
+  "edges": [
+    {
+      "from": "api",
+      "to": "writer",
+      "label": "calls",
+      "delta": "new",
+      "animated": true,
+      "evidence": "fact",
+      "cite": "src/api.ts:22"
+    },
+    {
+      "from": "writer",
+      "to": "db",
+      "label": "writes",
+      "evidence": "assumption"
+    }
+  ],
+  "flows": [
+    {
+      "id": "write",
+      "label": "Charge write",
+      "steps": [
+        { "from": "api", "to": "writer", "label": "accepts cart", "kind": "sync", "animated": true },
+        { "from": "writer", "to": "db", "label": "persists row", "kind": "async", "animated": true }
+      ]
+    }
+  ],
+  "views": [
+    {
+      "id": "writePath",
+      "title": "Charge write path",
+      "nodeIds": ["api", "writer", "db"]
+    }
+  ]
+}

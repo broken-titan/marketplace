@@ -1,0 +1,31 @@
+{
+  "name": "software-engineering",
+  "displayName": "Software Engineering",
+  "version": "1.5.4",
+  "description": "Write and change source code.\n\nInvoke looks-good for a general review instead of composing review skills by hand. Looks-good stays off until you invoke it. Lean gate stays on until you turn it off in the project.\n\nPath: implement \u2192 test/debug \u2192 simplify/review \u2192 looks-good. Specify and plan skills live in other plugins. Conditional skills load only when their trigger matches.\n\n- looks-good: Invoke this for a general software review; it selects every applicable check on the current diff and returns one verdict.\n- test-driven-development: Write a failing test for the missing behavior before you write production code.\n- parameterized-testing: Put every case for one behavior in one table, and give each row a name. Conditional: many cases for one behavior.\n- comment-police: Add no comments when writing or editing source, unless an exception applies.\n- exhaustive-match: When you switch, match, or map a closed set of keys, handle every member or fail; do not hide a new key in a silent else. Conditional: a closed set is in the diff.\n- systematic-debugging: Reproduce the bug before you edit. Conditional: a bug or failing test is in scope.\n- verification-before-completion: Run the checks on this tree and paste the command and the output before you say the work is done.\n- code-simplify: Delete and flatten extra code; use the language, then a framework already in the repo, then a library already in the repo.\n- complexity-refactor: Measure cyclomatic complexity, then refactor the worst functions first. Conditional: large, nested, or highly branching functions.\n- lean-gate: Before you commit or push, walk the staged or to-be-pushed diff and ship the smallest change that meets the request.\n- requesting-code-review: Read the whole diff and write findings as file:line plus severity.\n- receiving-code-review: Open the cited line, then fix it, reject it and say why, or ask if you need more. Conditional: review comments have arrived.\n- change-architecture-diagram: Turn a pull request or a diff into a schema-valid document and first-party SVG blast-radius and data-flow diagrams without inventing architecture. Conditional: diagrams were requested.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "software-engineering",
+    "looks-good",
+    "test-driven-development",
+    "parameterized-testing",
+    "systematic-debugging",
+    "verification-before-completion",
+    "code-simplify",
+    "complexity-refactor",
+    "comment-police",
+    "requesting-code-review",
+    "receiving-code-review",
+    "exhaustive-match",
+    "change-architecture-diagram",
+    "lean-gate"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace"
+}

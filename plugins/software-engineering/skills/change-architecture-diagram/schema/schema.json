@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "change-architecture-diagram/v1",
+  "title": "Change architecture diagram",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "title", "lenses", "lanes", "nodes", "edges"],
+  "properties": {
+    "kind": {
+      "const": "graph"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "string"
+    },
+    "lenses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": ["architecture", "data-flow"]
+      }
+    },
+    "lanes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label"],
+        "properties": {
+          "id": { "$ref": "#/definitions/id" },
+          "label": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "lane", "delta", "evidence"],
+        "properties": {
+          "id": { "$ref": "#/definitions/id" },
+          "label": { "type": "string", "minLength": 1 },
+          "lane": { "$ref": "#/definitions/id" },
+          "delta": { "$ref": "#/definitions/delta" },
+          "kind": { "$ref": "#/definitions/nodeKind" },
+          "subtitle": { "type": "string" },
+          "evidence": { "$ref": "#/definitions/evidence" },
+          "cite": { "type": "string" }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["from", "to", "evidence"],
+        "properties": {
+          "from": { "$ref": "#/definitions/id" },
+          "to": { "$ref": "#/definitions/id" },
+          "label": { "type": "string" },
+          "delta": { "$ref": "#/definitions/delta" },
+          "animated": { "type": "boolean" },
+          "evidence": { "$ref": "#/definitions/evidence" },
+          "cite": { "type": "string" }
+        }
+      }
+    },
+    "flows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "steps"],
+        "properties": {
+          "id": { "$ref": "#/definitions/id" },
+          "label": { "type": "string" },
+          "steps": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["from", "to"],
+              "properties": {
+                "from": { "$ref": "#/definitions/id" },
+                "to": { "$ref": "#/definitions/id" },
+                "label": { "type": "string" },
+                "kind": { "$ref": "#/definitions/hopKind" },
+                "animated": { "type": "boolean" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "views": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "nodeIds"],
+        "properties": {
+          "id": { "$ref": "#/definitions/id" },
+          "title": { "type": "string", "minLength": 1 },
+          "nodeIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/definitions/id" }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_-]*$"
+    },
+    "delta": {
+      "type": "string",
+      "enum": ["new", "changed", "removed", "unchanged"]
+    },
+    "evidence": {
+      "type": "string",
+      "enum": ["fact", "assumption"]
+    },
+    "nodeKind": {
+      "type": "string",
+      "enum": ["route", "service", "store", "job", "other"]
+    },
+    "hopKind": {
+      "type": "string",
+      "enum": ["sync", "async", "return"]
+    }
+  }
+}
