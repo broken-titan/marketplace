@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Skill Authoring">
+  <rect width="512" height="512" rx="96" fill="#7C3AED"/>
+  <rect x="118" y="108" width="240" height="300" rx="24" fill="#EDE9FE"/>
+  <rect x="148" y="156" width="180" height="18" rx="8" fill="#A78BFA"/>
+  <rect x="148" y="196" width="148" height="14" rx="7" fill="#C4B5FD"/>
+  <rect x="148" y="228" width="168" height="14" rx="7" fill="#C4B5FD"/>
+  <path fill="#FDE68A" d="M372 300l22-64 22 64 64 8-50 42 16 66-52-36-52 36 16-66-50-42z"/>
+</svg>

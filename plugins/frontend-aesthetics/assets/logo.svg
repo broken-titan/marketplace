@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Frontend Aesthetics">
+  <rect width="512" height="512" rx="96" fill="#1E3A5F"/>
+  <rect x="96" y="112" width="320" height="288" rx="28" fill="#E8EEF6"/>
+  <rect x="96" y="112" width="28" height="288" rx="14" fill="#F4A259"/>
+  <rect x="156" y="168" width="200" height="22" rx="8" fill="#1E3A5F"/>
+  <rect x="156" y="214" width="148" height="14" rx="7" fill="#7A8BA3"/>
+  <rect x="156" y="248" width="176" height="14" rx="7" fill="#7A8BA3"/>
+  <rect x="156" y="320" width="88" height="36" rx="10" fill="#F4A259"/>
+</svg>

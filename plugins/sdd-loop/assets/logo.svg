@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="SDD Loop">
+  <rect width="512" height="512" rx="96" fill="#1D4ED8"/>
+  <path fill="none" stroke="#DBEAFE" stroke-width="36" stroke-linecap="round" d="M140 256a116 116 0 1 1 40 86"/>
+  <path fill="#DBEAFE" d="M128 348l72-8-40-64z"/>
+  <circle cx="256" cy="256" r="44" fill="#93C5FD"/>
+  <circle cx="256" cy="256" r="18" fill="#1E3A8A"/>
+</svg>

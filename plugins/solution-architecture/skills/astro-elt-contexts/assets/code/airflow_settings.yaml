@@ -1,0 +1,12 @@
+airflow:
+  connections:
+    - conn_id: source_api
+      conn_type: http
+      host: https://source.example
+    - conn_id: warehouse
+      conn_type: mssql
+      host: warehouse.example
+      port: 1433
+    - conn_id: app_api
+      conn_type: http
+      host: https://app.example

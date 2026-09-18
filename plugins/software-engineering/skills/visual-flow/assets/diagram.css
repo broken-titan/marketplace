@@ -1,0 +1,93 @@
+/* Sunset over a wheat field: near-black, navy, slate blue, warm brown, orange,
+   gold. Light is those six read as ink on paper; dark is the photograph. */
+:root, svg.flow {
+  --ground: #f3ede0;
+  --panel: #fbf8f1;
+  --ink: #141414;
+  --ink-2: #4a4238;
+  --ink-3: #7e7364;
+  --rule: #ddd2bd;
+  --l0: #3f5478; --l1: #b85a08; --l2: #6e4f3a; --l3: #2e4a73;
+  --l4: #8a7431; --l5: #4f5d6b; --l6: #9c3f1c; --l7: #9a6b00;
+  --new: #2e7d32; --changed: #9a6b00; --removed: #b33a22;
+  --pulse-blend: multiply;
+  --halo: 0.22;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]), svg.flow {
+    --ground: #141414; --panel: #1b2b47; --ink: #ede4d3; --ink-2: #bcac90; --ink-3: #8a7f6e;
+    --rule: #33405a;
+    --l0: #8fa6cc; --l1: #dd7211; --l2: #a87c5f; --l3: #5b7ba8;
+    --l4: #e8d9a8; --l5: #7e8fa0; --l6: #c4562a; --l7: #e0bb60;
+    --new: #6fbf73; --changed: #e0bb60; --removed: #e2705a;
+    --pulse-blend: screen; --halo: 0.32;
+  }
+}
+:root[data-theme="dark"], :root[data-theme="dark"] svg.flow {
+  --ground: #141414; --panel: #1b2b47; --ink: #ede4d3; --ink-2: #bcac90; --ink-3: #8a7f6e;
+  --rule: #33405a;
+  --l0: #8fa6cc; --l1: #dd7211; --l2: #a87c5f; --l3: #5b7ba8;
+  --l4: #e8d9a8; --l5: #7e8fa0; --l6: #c4562a; --l7: #e0bb60;
+  --new: #6fbf73; --changed: #e0bb60; --removed: #e2705a;
+  --pulse-blend: screen; --halo: 0.32;
+}
+/* No sizing here. width/height/viewBox on the root give the intrinsic size;
+   how it fits a container is the container's business. Sizing rules inside
+   the SVG resolve against a viewport the embedding image is still deciding,
+   and the render comes out at the wrong scale. */
+svg.flow { font-family: var(--sans); background: var(--panel); }
+svg.flow .lane { fill: color-mix(in srgb, var(--c) 5%, var(--ground)); stroke: color-mix(in srgb, var(--c) 22%, var(--rule)); }
+svg.flow .lane-edge { fill: var(--c); stroke: none; }
+svg.flow .lane-title { font-family: var(--serif); font-size: var(--fs-lane); fill: var(--ink); }
+svg.flow .lane-sub { font-size: var(--fs-sub); fill: var(--ink-3); }
+svg.flow .card rect { fill: var(--panel); stroke: color-mix(in srgb, var(--c) 30%, var(--rule)); }
+svg.flow .card rect.head { fill: color-mix(in srgb, var(--c) 14%, var(--panel)); stroke: none; }
+svg.flow .card rect.head-rule { fill: color-mix(in srgb, var(--c) 35%, var(--rule)); stroke: none; }
+svg.flow .card-title { font-family: var(--mono); font-size: var(--fs-title); font-weight: 500; fill: var(--ink); }
+svg.flow .card-field { font-family: var(--mono); font-size: var(--fs-field); fill: var(--ink-2); }
+svg.flow .card[data-delta="new"] { --d: var(--new); }
+svg.flow .card[data-delta="changed"] { --d: var(--changed); }
+svg.flow .card[data-delta="removed"] { --d: var(--removed); }
+svg.flow .card[data-delta] rect { stroke: color-mix(in srgb, var(--d) 55%, var(--rule)); }
+svg.flow .card[data-delta] rect.head { fill: color-mix(in srgb, var(--d) 12%, var(--panel)); stroke: none; }
+svg.flow .card[data-delta] rect.head-rule { fill: color-mix(in srgb, var(--d) 50%, var(--rule)); stroke: none; }
+svg.flow .pill { fill: color-mix(in srgb, var(--d) 18%, var(--panel)); stroke: color-mix(in srgb, var(--d) 45%, var(--rule)); stroke-width: 0.8; }
+svg.flow .pill-label { font-family: var(--mono); font-size: var(--fs-pill); font-weight: 600; letter-spacing: 0.4px; fill: var(--d); }
+svg.flow .glyph { fill: color-mix(in srgb, var(--c) 22%, var(--panel)); stroke: none; }
+svg.flow .glyph-label { font-family: var(--mono); font-size: var(--fs-glyph); font-weight: 600; fill: color-mix(in srgb, var(--c) 80%, var(--ink)); }
+svg.flow .files-rule { fill: color-mix(in srgb, var(--c) 25%, var(--rule)); stroke: none; }
+svg.flow .card-file { font-family: var(--mono); font-size: var(--fs-file); fill: var(--ink-3); }
+svg.flow a .card-file { fill: color-mix(in srgb, var(--c) 75%, var(--ink-2)); text-decoration: underline; }
+svg.flow a:hover .card-file { fill: var(--c); }
+svg.flow .card-field[data-delta="new"] { fill: var(--new); }
+svg.flow .card-field[data-delta="changed"] { fill: var(--changed); }
+svg.flow .card-field[data-delta="removed"] { fill: var(--removed); opacity: 0.75; text-decoration: line-through; }
+svg.flow .route { fill: none; stroke: var(--c); stroke-width: 1.3; stroke-dasharray: 5 4; opacity: 0.62; }
+svg.flow .route-intra { stroke-dasharray: 1.5 3.5; stroke-width: 1.6; opacity: 0.85; }
+svg.flow .route-chip { fill: var(--panel); stroke: color-mix(in srgb, var(--c) 40%, var(--rule)); stroke-width: 0.8; }
+svg.flow .route-label { font-family: var(--mono); font-size: var(--fs-label); fill: color-mix(in srgb, var(--c) 70%, var(--ink-2)); }
+svg.flow .route-hero { stroke-width: 2.4; stroke-dasharray: none; opacity: 1; }
+svg.flow .route-muted { stroke-width: 1; opacity: 0.3; }
+svg.flow .route-chip.hero { fill: color-mix(in srgb, var(--c) 16%, var(--panel)); stroke-width: 1.2; }
+svg.flow .arrowhead { fill: context-stroke; }
+svg.flow .pulse { mix-blend-mode: var(--pulse-blend); }
+svg.flow .pulse-halo { fill: var(--c); opacity: var(--halo); filter: url(#glow); }
+svg.flow .pulse-core { fill: var(--c); opacity: 0.9; }
+@media (prefers-reduced-motion: reduce) { svg.flow .pulse { display: none; } }
+
+/* Walkthrough rail. Stepping is :target driven, so it needs no script.
+   No transition on the dimmed elements: an opacity transition here stopped
+   the browser settling on the new target's style, so stepping from one step
+   to another left the previous step lit. The change is instant instead. */
+svg.flow .rail { --c: var(--l1); }
+svg.flow .chip { fill: color-mix(in srgb, var(--c) 14%, var(--panel)); stroke: color-mix(in srgb, var(--c) 45%, var(--rule)); stroke-width: 0.9; }
+svg.flow .chip-reset { stroke-dasharray: 2 2; }
+svg.flow a:hover .chip { fill: color-mix(in srgb, var(--c) 32%, var(--panel)); }
+svg.flow .chip-label { font-family: var(--mono); font-size: var(--fs-chip); font-weight: 600; fill: color-mix(in srgb, var(--c) 85%, var(--ink)); }
+svg.flow .walk-hint { font-family: var(--mono); font-size: var(--fs-chip); fill: var(--ink-3); }
+.beat:target ~ g .walk-hint { opacity: 0; }
+svg.flow .beat-head { font-family: var(--mono); font-size: var(--fs-beat); font-weight: 600; fill: var(--ink); opacity: 0; }
+svg.flow .beat-body { font-family: var(--mono); font-size: var(--fs-body); fill: var(--ink-2); opacity: 0; }
