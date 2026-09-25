@@ -1,0 +1,22 @@
+{
+  "name": "lab",
+  "displayName": "Lab",
+  "version": "1.0.1",
+  "description": "Laboratory informatics for a LIMS, LIS, or ELN.\n\n- lab-informatics-profile: When you start a LIMS, LIS, or ELN repo, or when compliance overlays are unknown, run the closed-question intake and write docs/lab-informatics-profile.md in the consuming repo.\n- lab-informatics-compliance: When you design or review features that create, store, sign, or report laboratory records, load only the overlays the profile or an explicit flag turned on.\n- lab-system-csv: When GAMP 5 validation of the LIMS, LIS, or ELN itself is in scope, write the category, user requirements, risk, qualification protocols, and traceability files.\n- lab-part-11-review: When 21 CFR 11 or Annex 11 review is in scope, write the operational procedure for electronic records, signatures, and periodic audit-trail review.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "lab-informatics",
+    "lab-informatics-profile",
+    "lab-informatics-compliance",
+    "lab-system-csv",
+    "lab-part-11-review"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace"
+}

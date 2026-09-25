@@ -1,0 +1,32 @@
+{
+  "name": "engineering-strategy",
+  "displayName": "Engineering Strategy",
+  "version": "1.0.1",
+  "description": "Write a living engineering strategy in the repo you are working in.\n\n- engineering-strategy: When staff-plus or architecture work needs a living strategy, run explore, diagnose, refine, policy, and operations; write docs/engineering-strategy.md or docs/<slug>-engineering-strategy.md in reader order.\n- strategy-explore: When you have not yet explored the problem, write the implicit rules in this repo, the alternatives, and what others already do for this kind of problem, to docs/<slug>-strategy-explore.md.\n- strategy-diagnosis: When the challenge is unclear, write a theory of the problem, the dissenting views, and the data that exists, to docs/<slug>-strategy-diagnosis.md.\n- strategy-refine: Before you roll a strategy out widely, pick test, map, model, both, or skip, and write docs/<slug>-strategy-refine.md.\n- strategy-operations: When guiding policies already exist, write how you inspect them, the exception path, and the review cadence.\n- strategy-evaluate: When a living strategy file already exists, read how fast you can iterate, what the next test costs, and whether the file still fits the diagnosis, then write docs/<slug>-strategy-evaluate.md and leave the strategy file as it is.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "engineering-strategy",
+    "strategy-explore",
+    "strategy-diagnosis",
+    "strategy-refine",
+    "strategy-operations",
+    "strategy-evaluate"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Engineering Strategy",
+    "shortDescription": "Write a living engineering strategy in the repo you are working in.\n\n- engineering-strategy: When staff-plus or architecture work needs a living strategy, run explore, diagnose, refine, policy, and operations; write docs/engineering-strategy.md or docs/<slug>-engineering-strategy.md in reader order.\n- strategy-explore: When you have not yet explored the problem, write the implicit rules in this repo, the alternatives, and what others already do for this kind of problem, to docs/<slug>-strategy-explore.md.\n- strategy-diagnosis: When the challenge is unclear, write a theory of the problem, the dissenting views, and the data that exists, to docs/<slug>-strategy-diagnosis.md.\n- strategy-refine: Before you roll a strategy out widely, pick test, map, model, both, or skip, and write docs/<slug>-strategy-refine.md.\n- strategy-operations: When guiding policies already exist, write how you inspect them, the exception path, and the review cadence.\n- strategy-evaluate: When a living strategy file already exists, read how fast you can iterate, what the next test costs, and whether the file still fits the diagnosis, then write docs/<slug>-strategy-evaluate.md and leave the strategy file as it is.",
+    "developerName": "Broken Titan",
+    "category": "Development",
+    "websiteURL": "https://github.com/broken-titan/marketplace",
+    "logo": "./assets/logo.svg"
+  }
+}

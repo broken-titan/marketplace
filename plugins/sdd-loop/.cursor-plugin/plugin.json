@@ -1,0 +1,41 @@
+{
+  "name": "sdd-loop",
+  "displayName": "SDD Loop",
+  "version": "1.0.1",
+  "description": "Take a tracker ticket from intake through merge on a written spec.\n\n- sdd-init: When you enable spec-driven work in this repo, write SDD Scope and Verification to docs/sdd-scope.md or the agent-instruction files, then run the health check.\n- sdd-doctor: When you need to know if the loop is ready, run the read-only health check.\n- sdd: Start here for help, a ticket key, intake, batch, auto, review, evolve, stop, or the specify, plan, and implement aliases.\n- sdd-orchestrator: When a gated ticket needs a stage, infer the stage and run the matching playbook from intake through merge.\n- sdd-clarify: When a ticket already has a spec, re-run the Clarify Loop and keep the spec body.\n- sdd-analyze: When you need a cross-check of spec, design, tasks, and code, run the read-only analyze gate.\n- sdd-constitution: When the project constitution needs an amendment after init, edit docs/sdd-constitution.md.\n- sdd-converge: After verify, when acceptance criteria are still uncovered, run another dev pass until the ticket is Converged.\n- sdd-status: When you only need a one-screen read, print the queue, inferred stage, GATES, PENDING, ATTENTION, and preflight.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "sdd-loop",
+    "sdd-init",
+    "sdd-doctor",
+    "sdd-orchestrator",
+    "sdd-clarify",
+    "sdd-analyze",
+    "sdd-constitution",
+    "sdd-converge",
+    "sdd-status"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace",
+  "logo": "assets/logo.svg",
+  "category": "development",
+  "tags": [
+    "broken titan",
+    "broken-titan",
+    "sdd-loop",
+    "sdd-init",
+    "sdd-doctor",
+    "sdd-orchestrator",
+    "sdd-clarify",
+    "sdd-analyze",
+    "sdd-constitution",
+    "sdd-converge",
+    "sdd-status"
+  ]
+}
