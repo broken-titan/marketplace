@@ -1,0 +1,25 @@
+{
+  "name": "solution-architecture",
+  "displayName": "Solution Architecture",
+  "version": "1.0.1",
+  "description": "Requirements and architecture for the current engagement.\n\n- requirements-defaults: During a discovery call or before RSCOP and SAD work, walk each NFR category as HIT, MISS, DEFAULT, or ASK, and write docs/<slug>-nfr-discovery.md.\n- rscop-analysis: When you have a SOW, discovery notes, or intake, write a Reliability, Security, Cost, Operations, and Performance analysis where every row has a measurable target.\n- solutions-architecture-document: When an RSCOP file exists, write the Solutions Architecture Document from it and link the ADRs.\n- architecture-decision-records: When a decision needs a durable record, write an ADR with status, supersedes, options, and consequences.\n- c4-diagrams: When the deliverable is a C4 model, draw Context and Container, and add Deployment when asked.\n- requirements: When you start a feature or new feedback arrives, draft a numbered FR-* and NFR-* spec and stop for a human sign-off.\n- astro-elt-contexts: When you design, generate, or review warehouse ELT on Astro, Airflow, or dbt, land the source, transform it, and publish a contract; apply every gate before you write files.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "solution-architecture",
+    "rscop",
+    "rscop-analysis",
+    "requirements-defaults",
+    "solutions-architecture-document",
+    "architecture-decision-records",
+    "c4-diagrams",
+    "astro-elt-contexts"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace"
+}

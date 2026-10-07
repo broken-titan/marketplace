@@ -1,0 +1,22 @@
+{
+  "name": "usage-batteries",
+  "displayName": "Usage Batteries",
+  "version": "1.0.0",
+  "description": "Show always-visible Claude usage meters in the status line as horizontal phone batteries.\n\nFill is remaining (100 minus used). The cluster grows or shrinks with the meters that are on and have data.\n\n- usage-batteries: When the user asks about Claude usage meters, status-line batteries, session or weekly limits, Weekly Fable, or how to toggle those meters and labels.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "usage-batteries",
+    "statusline",
+    "rate-limits",
+    "session-limit",
+    "weekly-fable"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace"
+}
