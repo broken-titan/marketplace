@@ -1,0 +1,31 @@
+{
+  "name": "path-hubs",
+  "displayName": "Path Hubs",
+  "version": "1.0.1",
+  "description": "Group Chat and Code sessions under one hub per git repo path.\n\nClaude Code cannot inject a sidebar. /path-hubs renders the 2a Path hubs view (Chats, Code, Unlinked, auto-link). SessionStart auto-links the current cwd when the toggle is on. Manual link and unlink persist.\n\n- path-hubs: When you need sessions grouped by repo path, or to link, unlink, or toggle auto-link, run Path hubs.",
+  "author": {
+    "name": "Broken Titan",
+    "url": "https://github.com/broken-titan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broken titan",
+    "broken-titan",
+    "path-hubs",
+    "path hubs",
+    "sessions",
+    "git"
+  ],
+  "homepage": "https://github.com/broken-titan/marketplace",
+  "repository": "https://github.com/broken-titan/marketplace",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Path Hubs",
+    "shortDescription": "Group Chat and Code sessions under one hub per git repo path.\n\nClaude Code cannot inject a sidebar. /path-hubs renders the 2a Path hubs view (Chats, Code, Unlinked, auto-link). SessionStart auto-links the current cwd when the toggle is on. Manual link and unlink persist.\n\n- path-hubs: When you need sessions grouped by repo path, or to link, unlink, or toggle auto-link, run Path hubs.",
+    "developerName": "Broken Titan",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/broken-titan/marketplace",
+    "logo": "./assets/logo.svg"
+  },
+  "hooks": "./hooks/hooks.json"
+}
