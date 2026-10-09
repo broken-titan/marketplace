@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "hooks": {
+    "postToolUse": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/strip-em-dash.mjs\"",
+        "matcher": "Write"
+      }
+    ],
+    "sessionStart": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/hooks/seed-writing-density.sh\""
+      }
+    ]
+  }
+}

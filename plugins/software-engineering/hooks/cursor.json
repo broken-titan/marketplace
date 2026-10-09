@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/hooks/lean-gate.sh\"",
+        "matcher": "git commit"
+      },
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/hooks/lean-gate.sh\"",
+        "matcher": "git push"
+      }
+    ]
+  }
+}
