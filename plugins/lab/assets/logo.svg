@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Lab">
+  <rect width="512" height="512" rx="96" fill="#0F766E"/>
+  <path fill="#F8FAFC" d="M214 96h84c10 0 18 8 18 18v92l72 128c18 32-5 72-42 72H166c-37 0-60-40-42-72l72-128V114c0-10 8-18 18-18zm18 36v86c0 6-2 12-6 18l-70 124h188l-70-124c-4-6-6-12-6-18v-86h-36z"/>
+  <circle cx="232" cy="348" r="16" fill="#99F6E4"/>
+  <circle cx="280" cy="372" r="12" fill="#99F6E4"/>
+</svg>

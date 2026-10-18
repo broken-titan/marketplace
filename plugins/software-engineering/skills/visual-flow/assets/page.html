@@ -1,0 +1,28 @@
+<title>__TITLE__</title>
+<style>
+__CSS__
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--sans); font-size: 14px; line-height: 1.5; }
+main { max-width: 1480px; margin: 0 auto; padding: 40px 32px 64px; }
+h1 { font-family: var(--serif); font-weight: 600; font-size: 30px; line-height: 1.15; margin: 0 0 6px; }
+.lede { max-width: 68ch; color: var(--ink-2); margin: 0 0 12px; }
+.counts { font-family: var(--mono); font-size: 11.5px; color: var(--ink-3); margin: 0 0 24px; }
+.counts .sep { padding: 0 6px; opacity: 0.6; }
+.counts .delta-new { color: var(--new); }
+.counts .delta-changed { color: var(--changed); }
+.counts .delta-removed { color: var(--removed); }
+.lanes { overflow-x: auto; border: 1px solid var(--rule); background: var(--panel); padding: 10px; }
+.lanes svg { display: block; max-width: 100%; height: auto; }
+details { margin-top: 18px; border: 1px solid var(--rule); background: var(--panel); }
+summary { font-family: var(--mono); font-size: 12px; padding: 9px 12px; cursor: pointer; }
+summary .scope { color: var(--ink-3); margin-left: 10px; font-size: 11px; }
+details .lanes { border: 0; border-top: 1px solid var(--rule); }
+.view-summary { font-family: var(--sans); color: var(--ink-2); margin: 0; padding: 0 12px 4px; }
+</style>
+<main>
+  <h1>__TITLE__</h1>
+  <p class="lede">__LEDE__</p>
+  <p class="counts">__COUNTS__</p>
+  <div class="lanes">__SVG__</div>
+__VIEWS__
+</main>

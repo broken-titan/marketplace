@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: int_entity
+    description: Warehouse entity after the source ACL. Vendor codes do not leave this layer.
+    columns:
+      - name: warehouse_id
+        tests: [unique, not_null]
+      - name: business_key
+        tests: [not_null]
+      - name: state
+        tests: [not_null]
+      - name: source_updated_at
+        tests: [not_null]

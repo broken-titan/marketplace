@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Path Hubs">
+  <rect width="512" height="512" rx="96" fill="#1A1614"/>
+  <rect x="88" y="108" width="200" height="296" rx="28" fill="#2A2420"/>
+  <rect x="116" y="148" width="144" height="18" rx="8" fill="#E07A5F"/>
+  <rect x="116" y="188" width="96" height="12" rx="6" fill="#F3ECE3"/>
+  <rect x="116" y="220" width="120" height="12" rx="6" fill="#9C9288"/>
+  <rect x="116" y="252" width="88" height="12" rx="6" fill="#F3ECE3"/>
+  <rect x="116" y="284" width="112" height="12" rx="6" fill="#9C9288"/>
+  <path fill="#E07A5F" d="M348 214c28 0 50 22 50 50s-22 50-50 50c-12 0-23-4-32-11l-20 20c14 12 32 19 52 19 44 0 80-36 80-80s-36-80-80-80c-20 0-38 7-52 19l20 20c9-7 20-11 32-11zm-72 50c0-28 22-50 50-50 12 0 23 4 32 11l20-20c-14-12-32-19-52-19-44 0-80 36-80 80s36 80 80 80c20 0 38-7 52-19l-20-20c-9 7-20 11-32 11-28 0-50-22-50-50z"/>
+</svg>

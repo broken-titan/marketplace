@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeMCPExecution": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/hooks/guard-external-writes.sh\""
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "sh \"${CURSOR_PLUGIN_ROOT}/hooks/guard-git-push.sh\"",
+        "matcher": "git push"
+      }
+    ]
+  }
+}
